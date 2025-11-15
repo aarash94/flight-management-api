@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and dependency folders
+.venv/
+venv/
+env/
+
+# Environment variable and secret files
+.env
+.env.*
+*.env
+
+# Local sqlite files
+flights.db
+flights.db-journal
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Distribution / packaging junk
+build/
+dist/
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
